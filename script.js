@@ -31,7 +31,7 @@ document.addEventListener ( 'DOMContentLoaded', () => {
     }
 
     //Funktion zum Starten des Trainings
-    startButton.addEventListener ( 'clicl', () => {
+    startButton.addEventListener ( 'click', () => {
         if ( isRunning ) return;
 
         const minRange = parseInt ( minRangeInput.value, 10 );
